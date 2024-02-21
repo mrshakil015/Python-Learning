@@ -23,6 +23,61 @@ Python is a high-level, interpreted programming language known for its simplicit
 </details>
 
 <details>
+<summary><b>Input/Output in Python</b></summary>
+
+### <b>Input in Python:</b>
+---
+<code>input(): </code>This function first takes the input from the user and converts it into a string. The type of the returned object always will be <class ‘str’>.
+
+<b>Input Syntax:</b>
+
+```python
+name = input("Enter your name: ")
+
+//integer or other
+numer = int(input("Enter a number: "))
+```
+
+<b>For Multiple input:</b>
+
+```python
+# For multiple input
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
+```
+
+### <b>Output in Python:</b>
+---
+Python print() function prints the message to the screen or any other standard output device.
+
+```python
+# Displaying text output
+print("Hello, World!")
+```
+
+<b>Formatting Output:</b>
+
+```python
+# Using % operator for string formatting
+name = "Alice"
+age = 25
+
+print("Hello, my name is", name, "and I am", age, "years old.")
+
+# Using f-strings (Python 3.6+)
+print(f"Name: {name}, Age: {age}")
+```
+
+<b>Print Concatenated Strings</b>
+
+```python
+print('Python is a Wonderful ' + 'Programming Language.')
+```
+
+</details>
+
+<details>
 <summary><b>Python Keywords and Identifiers</b></summary>
 
 ### <b>Python Keywords:</b>
