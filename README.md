@@ -135,3 +135,10 @@ my variable -->(contains a space)
 ```
 
 </details>
+
+<details>
+<summary><b>Variables in Python</b></summary>
+In Python, a variable is a named storage location used to store data values. Variables are created when you assign a value to them using the assignment operator =. 
+
+
+</details>
