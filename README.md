@@ -140,5 +140,44 @@ my variable -->(contains a space)
 <summary><b>Variables in Python</b></summary>
 In Python, a variable is a named storage location used to store data values. Variables are created when you assign a value to them using the assignment operator =. 
 
++ <code><b>Variable Assignment:</b></code> In Python, variables do not need to be declared with any particular type, and can even change type after they have been set.
+
+    ```python
+    x = 10          # Assigning an integer value
+    name = "Alice"  # Assigning a string value
+    is_valid = True # Assigning a boolean value
+    ```
++ <code><b>Variable Reassignment:</b></code> We can change the value of a variable by assigning a new value to it.
+  
+  ```python
+    x = 4       # x is of type int
+    x = "Sally" # x is now of type str
+  ```
+
++ <code><b>Variable Type Casting:</b></code> If we want to specify the data type of a variable, this can be done with casting.
+  
+  ```python
+    x = str(3)    # x will be '3'
+    y = int(3)    # y will be 3
+    z = float(3)  # z will be 3.0
+  ```
+
++ <code><b>Getting Type of Variable:</b></code> We can get the data type of a variable with the <code>type()</code> function.
+  
+    <div style="background-color: black; padding: 5px;">
+
+    ```python
+    x = 5
+    y = "John"
+    print(type(x))
+    print(type(y))
+    ```
+    </div>
+
++ <code><b>Multiple Assignment:</b></code> We can assign values to multiple variables in a single line using multiple assignment.
+  
+  ```python
+    x, y, z = 10, 20, 30
+  ```
 
 </details>
