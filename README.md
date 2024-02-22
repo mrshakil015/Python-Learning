@@ -163,8 +163,6 @@ In Python, a variable is a named storage location used to store data values. Var
   ```
 
 + <code><b>Getting Type of Variable:</b></code> We can get the data type of a variable with the <code>type()</code> function.
-  
-    <div style="background-color: #122033; padding: 5px;">
 
     ```python
     x = 5
@@ -172,7 +170,6 @@ In Python, a variable is a named storage location used to store data values. Var
     print(type(x))
     print(type(y))
     ```
-    </div>
 
 + <code><b>Multiple Assignment:</b></code> We can assign values to multiple variables in a single line using multiple assignment.
   
