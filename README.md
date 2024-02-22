@@ -1,6 +1,6 @@
 # Python-Learning
 
-![Python](images/Python4.png)
+![Python](images/python.jpg)
 
 <details>
 <summary><b>Getting Start with Python</b></summary>
