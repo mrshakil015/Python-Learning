@@ -233,6 +233,65 @@ Data types are the classification or categorization of data items. It represents
 | x = memoryview(bytes(5))             | memoryview |
 | x = None                             | NoneType   |
 
+### <b>String in Python:</b>
+---
+A String is a data structure in Python that represents a sequence of characters. It is an immutable data type, meaning that once we have created a string, we cannot change it. Strings in Python are created by enclosing the characters within either single quotes (') or double quotes (").
 
++ <code><b>Creating String:</b></code>
+
+  ```python
+  # create a string using double quotes
+  str1 = "This string into double quotes"
+
+  # create a string using single quotes
+  str2 = 'This string into single quotes'
+
+  #Print String
+  print(str1)
+  print(str2)
+  ```
+
++ <code><b>Indexing & Slicing:</b></code> We can access individual characters in a string using indexing. Python uses zero-based indexing, meaning the first character is at index 0, the second at index 1,  -1 refers to the last character, -2 refers to the second last character, and so on.
+
+  ![string](images/strings.jpg)
+
+  ```python
+  str1 = "PythonProgramming"
+  print("Initial String: ") 
+  print(str1) 
+
+  # Printing First character 
+  print("\nFirst character of String is: ") 
+  print(str1[0]) 
+
+  # Printing Last character 
+  print("\nLast character of String is: ") 
+  print(str1[-1]) 
+
+  # Printing Specific Range
+  print("\nSpecific Range of String is: ") 
+  print(str1[6:]) 
+
+  # Printing characters between 
+  print("\nSlicing characters between 3rd and 2nd last character: ") 
+  print(str1[3:-2])
+  ```
+
++ <code><b>Concatenation:</b></code> Strings can be concatenated using the + operator.
+  
+  ```python
+  str1 = "Hello"
+  str2 = "World"
+  result = str1 + " " + str2
+  print(result)
+  ```
+
++ <code><b>Reversing a Python String</b></code> By accessing characters from a string, we can also reverse strings in Python. We can Reverse a string by using String slicing method.
+  
+  ```python
+  #Program to reverse a string 
+  string = "PythonProgramming"
+  print(string[::-1])
+  ```
 
 </details>
