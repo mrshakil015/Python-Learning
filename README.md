@@ -294,119 +294,122 @@ A String is a data structure in Python that represents a sequence of characters.
   print(string[::-1])
   ```
 
-+ <code><b>String Methods:</b></code> Python provides many built-in methods to manipulate strings, such as upper(), lower(), strip(), replace(), split(), join(), and many more.
+### <b>String Methods:</b>
+---
 
-  + </code>capitalize():</code> Converts the first character of the string to uppercase
+Python provides many built-in methods to manipulate strings, such as <b>upper(), lower(), strip(), replace(), split(), join()</b>, and many more.
 
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.capitalize())  # Output: "Hello, world!"
-    ```
-  + <code>upper():</code> Converts all characters of the string to uppercase
++ <code>capitalize():</code> Converts the first character of the string to uppercase
 
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.upper())  # Output: "HELLO, WORLD!"
-    ```
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.capitalize())  # Output: "Hello, world!"
+  ```
++ <code>upper():</code> Converts all characters of the string to uppercase
+
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.upper())  # Output: "HELLO, WORLD!"
+  ```
+
++ <code>lower():</code> Converts all characters of the string to lowercase
+
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.lower())  # Output: "hello, world!"
+  ```
+
++ <code>strip():</code> Removes leading and trailing whitespace from the string
+
+  ```python
+  my_string_with_spaces = "   Hello, World!   "
+  print(my_string_with_spaces.strip())  # Output: "Hello, World!"
+  ```
   
-  + <code>lower():</code> Converts all characters of the string to lowercase
-  
-    ```python
++ <code>replace():</code> Replaces a specified substring with another substring
+
+  ```python
     my_string = "Hello, World!"
-    print(my_string.lower())  # Output: "hello, world!"
-    ```
-  
-  + <code>strip():</code> Removes leading and trailing whitespace from the string
+    print(my_string.replace("Hello", "Hi"))  # Output: "Hi, World!"
+  ```
 
-    ```python
-    my_string_with_spaces = "   Hello, World!   "
-    print(my_string_with_spaces.strip())  # Output: "Hello, World!"
-    ```
-    
-  + <code>replace():</code> Replaces a specified substring with another substring
-  
-    ```python
-      my_string = "Hello, World!"
-      print(my_string.replace("Hello", "Hi"))  # Output: "Hi, World!"
-    ```
-  
-  + <code>split():</code> Splits the string into a list of substrings based on a delimiter
-  
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.split(", "))  # Output: ['Hello', 'World!']
-    ```
++ <code>split():</code> Splits the string into a list of substrings based on a delimiter
 
-  + <code>find():</code> Searches the string for a specified value and returns the position of where it was found
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.split(", "))  # Output: ['Hello', 'World!']
+  ```
 
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.find("World"))  # Output: 7
-    ```
++ <code>find():</code> Searches the string for a specified value and returns the position of where it was found
 
-  + <code>count():</code> Returns the number of occurrences of a specified value in the string
-  
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.count("l"))  # Output: 3
-    ```
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.find("World"))  # Output: 7
+  ```
 
-  + <code>isalpha():</code> Returns True if all characters in the string are alphabetic
++ <code>count():</code> Returns the number of occurrences of a specified value in the string
 
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.isalpha())  # Output: False
-    ```
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.count("l"))  # Output: 3
+  ```
 
-  + <code>isnumeric():</code> Returns True if all characters in the string are numeric
++ <code>isalpha():</code> Returns True if all characters in the string are alphabetic
 
-    ```python
-    numeric_string = "12345"
-    print(numeric_string.isnumeric())  # Output: True
-    ```
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.isalpha())  # Output: False
+  ```
 
-  + <code>startswith():</code> Returns True if the string starts with the specified value
++ <code>isnumeric():</code> Returns True if all characters in the string are numeric
 
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.startswith("Hello"))  # Output: True
-    ```
+  ```python
+  numeric_string = "12345"
+  print(numeric_string.isnumeric())  # Output: True
+  ```
 
-  + <code>endswith():</code> Returns True if the string ends with the specified value
++ <code>startswith():</code> Returns True if the string starts with the specified value
 
-    ```python
-    my_string = "Hello, World!"
-    print(my_string.endswith("World!"))  # Output: True
-    ```
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.startswith("Hello"))  # Output: True
+  ```
 
-  + <code>join():</code> Joins the elements of an iterable (such as a list) into a string, using the string as a separator
++ <code>endswith():</code> Returns True if the string ends with the specified value
 
-    ```python
-    my_list = ["Hello", "World", "Python"]
-    print("-".join(my_list))  # Output: "Hello-World-Python"
-    ```
+  ```python
+  my_string = "Hello, World!"
+  print(my_string.endswith("World!"))  # Output: True
+  ```
 
-  + <code>format():</code> Formats the string
++ <code>join():</code> Joins the elements of an iterable (such as a list) into a string, using the string as a separator
 
-    ```python
-    name = "Alice"
-    age = 30
-    print("My name is {} and I am {} years old.".format(name, age))  # Output: "My name is Alice and I am 30 years old."
-    ```
+  ```python
+  my_list = ["Hello", "World", "Python"]
+  print("-".join(my_list))  # Output: "Hello-World-Python"
+  ```
 
-  + <code>encode():</code> Encodes the string using the specified encoding
++ <code>format():</code> Formats the string
 
-    ```python
-    my_string = "Hello, World!"
-    encoded_string = my_string.encode("utf-8")
-    print(encoded_string)  # Output: b'Hello, World!'
-    ```
+  ```python
+  name = "Alice"
+  age = 30
+  print("My name is {} and I am {} years old.".format(name, age))  # Output: "My name is Alice and I am 30 years old."
+  ```
 
-  + <code>isdigit():</code> Returns True if all characters in the string are digits
++ <code>encode():</code> Encodes the string using the specified encoding
 
-    ```python
-    numeric_string = "12345"
-    print(numeric_string.isdigit())  # Output: True
-    ```
+  ```python
+  my_string = "Hello, World!"
+  encoded_string = my_string.encode("utf-8")
+  print(encoded_string)  # Output: b'Hello, World!'
+  ```
+
++ <code>isdigit():</code> Returns True if all characters in the string are digits
+
+  ```python
+  numeric_string = "12345"
+  print(numeric_string.isdigit())  # Output: True
+  ```
 
 </details>
