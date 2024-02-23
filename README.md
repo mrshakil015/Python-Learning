@@ -1,6 +1,6 @@
 # Python-Learning
 
-![Python](images/python.jpg)
+![Python](images/Python4.png)
 
 <details>
 <summary><b>Getting Start with Python</b></summary>
@@ -206,5 +206,33 @@ In Python, a variable is a named storage location used to store data values. Var
 
     print("Python is " + x)
   ```
+
+</details>
+
+<details>
+<summary><b>Data Types in Python</b></summary>
+Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data.
+
+![DataType](images/Python-data-structure.jpg)
+
+| Example                              | Data Type  |
+|--------------------------------------|------------|
+| x = "Hello World"                   | str        |
+| x = 20                               | int        |
+| x = 20.5                             | float      |
+| x = 1j                               | complex    |
+| x = ["apple", "banana", "cherry"]    | list       |
+| x = ("apple", "banana", "cherry")    | tuple      |
+| x = range(6)                         | range      |
+| x = {"name" : "John", "age" : 36}    | dict       |
+| x = {"apple", "banana", "cherry"}    | set        |
+| x = frozenset({"apple", "banana", "cherry"}) | frozenset |
+| x = True                             | bool       |
+| x = b"Hello"                        | bytes      |
+| x = bytearray(5)                     | bytearray |
+| x = memoryview(bytes(5))             | memoryview |
+| x = None                             | NoneType   |
+
+
 
 </details>
