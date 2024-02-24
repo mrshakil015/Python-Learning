@@ -233,7 +233,7 @@ Data types are the classification or categorization of data items. It represents
 | x = memoryview(bytes(5))             | memoryview |
 | x = None                             | NoneType   |
 
-### <b>String in Python:</b>
+## <b>String in Python:</b>
 ---
 A String is a data structure in Python that represents a sequence of characters. It is an immutable data type, meaning that once we have created a string, we cannot change it. Strings in Python are created by enclosing the characters within either single quotes (') or double quotes (").
 
@@ -414,5 +414,83 @@ Python provides many built-in methods to manipulate strings, such as <b>upper(),
   numeric_string = "12345"
   print(numeric_string.isdigit())  # Output: True
   ```
+## <b>Python List</b>
+---
+Python Lists are just like dynamically sized arrays, declared in other languages. Lists store multiple data together in a single variable. List items are ordered, changeable, and allow duplicate values. Lists can contain elements of different data types, and we can add, remove, or modify elements in a list.
+
+<b>Creating list:</b></br>
+We can create a list by enclosing comma-separated values within square brackets [ ].
+
+```python
+# Creating a list of numbers
+# Creating a list of numbers
+numbers = [1, 2, 3, 4, 5]
+print(numbers)
+
+# Creating a list of strings
+program = ["Python", "Java", "JavaScript"]
+print(program)
+
+# Creating a list with mixed data types
+mixed_list = [1, "apple", True, 3.14]
+print(mixed_list)
+```
+
+<b>Accessing Elements from List:</b></br>
+Each element in a list is associated with a number, known as a list index. Use the index operator [ ] to access an item in a list. The index must be an integer. Nested lists are accessed using nested indexing. 
+
+![List](images/list-index-python.png)
+
+```python
+# Creating a list of numbers
+numbers = [1, 2, 3, 4, 5]
+program = ["Python", "Java", "JavaScript"]
+mixed_list = [1, "apple", True, 3.14]
+
+# Accessing elements by index
+print(numbers[0])   # Output: 1
+print(program[1])    # Output: Java
+```
+
+<b>Modifying Elements:</b></br>
+
+```python
+# Modifying elements
+program = ["Python", "Java", "JavaScript"]
+program[1]= "C++"
+print(program)   #output: Python, C++, JavaScript
+```
+
+<b>Adding Elemetns:</b></br>
+We can add elements to the end of a list using the <code>append()</code> method or insert elements at a specific position using the <code>insert()</code> method.
++ <code>append():</code>  Using the append() method only one element at a time can be added to the list.
+  
+  ```python
+  program = ["Python", "Java", "JavaScript"]
+  program.append("C++")
+  print(program) 
+  ```
++ <code>insert():</code> The insert() method inserts an item at the specified index.
+  
+  ```python
+  program = ["Python", "Java", "JavaScript"]
+  program.insert(1, "C++")
+  print(program) 
+  ```
++ <code>extend():</code> This method is used to add multiple elements at the same time at the end of the list. Also used to append elements from another list to the current list.
+
+  ```python
+  program = ["Python", "Java", "JavaScript"]
+  program.extend(["C++","Dart"])
+  print(program)
+
+  #Append List
+  backend = ["Python", "Java"]
+  frontend = ["HTML","CSS"]
+  backend.extend(frontend)
+  print(backend)
+
+  ```
+
 
 </details>
