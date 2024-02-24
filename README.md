@@ -233,6 +233,75 @@ Data types are the classification or categorization of data items. It represents
 | x = memoryview(bytes(5))             | memoryview |
 | x = None                             | NoneType   |
 
+<b>Coding Example:</b>
+
+```python
+# str
+my_string = "Hello, World!"
+print(my_string)
+
+# int
+my_integer = 42
+print(my_integer)
+
+# float
+my_float = 3.14
+print(my_float)
+
+# complex
+my_complex = 1 + 2j
+print(my_complex)
+
+# list
+my_list = ["apple", "banana", "cherry"]
+print(my_list)
+
+# tuple
+my_tuple = ("apple", "banana", "cherry")
+print(my_tuple)
+
+# range
+my_range = range(5)
+print(list(my_range))
+
+# dict
+my_dict = {"name": "John", "age": 36}
+print(my_dict)
+
+# set
+my_set = {"apple", "banana", "cherry"}
+print(my_set)
+
+# frozenset
+my_frozenset = frozenset({"apple", "banana", "cherry"})
+print(my_frozenset)
+
+# bool
+my_bool = True
+print(my_bool)
+
+# bytes
+my_bytes = b"Hello"
+print(my_bytes)
+
+# bytearray
+my_bytearray = bytearray(5)
+print(my_bytearray)
+
+# memoryview
+my_memoryview = memoryview(b"Hello")
+print(my_memoryview)
+
+# NoneType
+my_none = None
+print(my_none)
+```
+
+</details>
+
+<details>
+<summary><b>Python String</b></summary>
+
 ## <b>String in Python:</b>
 ---
 A String is a data structure in Python that represents a sequence of characters. It is an immutable data type, meaning that once we have created a string, we cannot change it. Strings in Python are created by enclosing the characters within either single quotes (') or double quotes (").
@@ -414,6 +483,12 @@ Python provides many built-in methods to manipulate strings, such as <b>upper(),
   numeric_string = "12345"
   print(numeric_string.isdigit())  # Output: True
   ```
+</details>
+
+<details>
+<summary><b>Python List</b></summary>
+
+
 ## <b>Python List</b>
 ---
 Python Lists are just like dynamically sized arrays, declared in other languages. Lists store multiple data together in a single variable. List items are ordered, changeable, and allow duplicate values. Lists can contain elements of different data types, and we can add, remove, or modify elements in a list.
@@ -489,7 +564,6 @@ We can add elements to the end of a list using the <code>append()</code> method 
   frontend = ["HTML","CSS"]
   backend.extend(frontend)
   print(backend)
-
   ```
 
 
