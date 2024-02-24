@@ -354,11 +354,14 @@ Python provides many built-in methods to manipulate strings, such as <b>upper(),
   print(my_string.count("l"))  # Output: 3
   ```
 
-+ <code>isalpha():</code> Returns True if all characters in the string are alphabetic
++ <code>isalpha():</code> Returns True if all characters in the string are alphabet letters (a-z).Don't used any whitespace.
 
   ```python
   my_string = "Hello, World!"
   print(my_string.isalpha())  # Output: False
+  
+  my_string = "HelloWorld"
+  print(my_string.isalpha())  # Output: True
   ```
 
 + <code>isnumeric():</code> Returns True if all characters in the string are numeric
