@@ -591,4 +591,43 @@ We can remove elements from a list using the <code>remove()</code> method to rem
   print(program)
   ```
 
+<b>Sort List:</b></br>
+---
+In Python, we can sort a list using the sort() method or the built-in sorted() function.
+
++ <code>sort():</code> The sort() method sorts the list in place, it modifies the original list.
+  
+  ```python
+  my_list = [3, 1, 4, 1, 5, 9, 2, 6]
+  my_list.sort()
+  print("Sorted list:", my_list)
+
+  program = ["Python", "Java", "Dart", "JavaScript", "C++"]
+  program.sort()
+  print("Sorted list:",program)
+  ```
+
+  Sort the list in descending order
+
+  ```python
+  # Sort the list in descending order
+  my_list = [3, 1, 4, 1, 5, 9, 2, 6]
+  my_list.sort(reverse=True)
+  print("Sorted list:", my_list)
+
+  program = ["Python", "Java", "Dart", "JavaScript", "C++"]
+  program.sort(reverse=True)
+  print("Sorted list:",program)
+  ```
++ <code>sorted():</code> The sorted() function returns a new sorted list without modifying the original list.
+
+  ```python
+  my_list = [3, 1, 4, 1, 5, 9, 2, 6]
+  sort_list = sorted(my_list)
+  print("Sorted list:", sort_list)
+
+  program = ["Python", "Dart", "JavaScript", "C++"]
+  sort_list2 = sorted(program, reverse= True)
+  print("Sorted list:",sort_list2)
+  ```
 </details>
