@@ -630,4 +630,23 @@ In Python, we can sort a list using the sort() method or the built-in sorted() f
   sort_list2 = sorted(program, reverse= True)
   print("Sorted list:",sort_list2)
   ```
+
+<b>Copy List:</b></br>
+---
+To copy a list in Python, we have a couple of options. We can use the copy() method, or we can use slicing or the list() constructor. We cannot copy a list simply by typing list2 = list1, because: list2 will only be a reference to list1, and changes made in list1 will automatically also be made in list2.
+
+```python
+program = ["Python", "Dart", "JavaScript", "C++"]
+new_program = program.copy()
+print(new_program)
+```
+
+Another way to make a copy is to use the built-in method list()
+
+```python
+program = ["Python", "Dart", "JavaScript", "C++"]
+new_program = list(program)
+print(new_program)
+```
+
 </details>
