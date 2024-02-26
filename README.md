@@ -566,5 +566,24 @@ We can add elements to the end of a list using the <code>append()</code> method 
   print(backend)
   ```
 
+### <b>Removing Elements:</b>
+---
+We can remove elements from a list using the <code>remove()</code> method to remove a specific value, or the <code>pop()</code> method to remove an element by index.
+
++ <code>remove():</code> Remove() method only removes one element at a time, to remove a range of elements, the iterator is used. The remove() method removes the specified item.
+
+  ```python
+  program = ["Python", "Java", "JavaScript"]
+  program.remove("Python")
+  print(program)
+  ```
+
++ <code>pop():</code> function can also be used to remove and return an element from the list, but by default it removes only the last element of the list, to remove an element from a specific position of the List, the index of the element is passed as an argument to the pop() method.
+
+  ```python
+  program = ["Python", "Java", "JavaScript"]
+  program.pop(2)
+  print(program)
+  ```
 
 </details>
