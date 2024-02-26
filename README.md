@@ -494,6 +494,7 @@ Python provides many built-in methods to manipulate strings, such as <b>upper(),
 Python Lists are just like dynamically sized arrays, declared in other languages. Lists store multiple data together in a single variable. List items are ordered, changeable, and allow duplicate values. Lists can contain elements of different data types, and we can add, remove, or modify elements in a list.
 
 <b>Creating list:</b></br>
+---
 We can create a list by enclosing comma-separated values within square brackets [ ].
 
 ```python
@@ -512,6 +513,7 @@ print(mixed_list)
 ```
 
 <b>Accessing Elements from List:</b></br>
+---
 Each element in a list is associated with a number, known as a list index. Use the index operator [ ] to access an item in a list. The index must be an integer. Nested lists are accessed using nested indexing. 
 
 ![List](images/list-index-python.png)
@@ -528,6 +530,7 @@ print(program[1])    # Output: Java
 ```
 
 <b>Modifying Elements:</b></br>
+---
 
 ```python
 # Modifying elements
@@ -537,6 +540,8 @@ print(program)   #output: Python, C++, JavaScript
 ```
 
 <b>Adding Elemetns:</b></br>
+---
+
 We can add elements to the end of a list using the <code>append()</code> method or insert elements at a specific position using the <code>insert()</code> method.
 + <code>append():</code>  Using the append() method only one element at a time can be added to the list.
   
