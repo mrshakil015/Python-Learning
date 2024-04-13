@@ -190,7 +190,7 @@ In Python, a variable is a named storage location used to store data values. Var
     x = "awesome"
 
     def myfunc():
-    print("Python is " + x)
+       print("Python is " + x)
 
     myfunc()
   ```
@@ -199,8 +199,8 @@ In Python, a variable is a named storage location used to store data values. Var
     x = "awesome"
 
     def myfunc():
-    x = "fantastic"
-    print("Python is " + x)
+       x = "fantastic"
+       print("Python is " + x)
 
     myfunc()
 
