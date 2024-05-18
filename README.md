@@ -499,7 +499,6 @@ We can create a list by enclosing comma-separated values within square brackets 
 
 ```python
 # Creating a list of numbers
-# Creating a list of numbers
 numbers = [1, 2, 3, 4, 5]
 print(numbers)
 
@@ -589,6 +588,23 @@ We can remove elements from a list using the <code>remove()</code> method to rem
   program = ["Python", "Java", "JavaScript"]
   program.pop(2)
   print(program)
+  ```
+
++ <code>del:</code> The `del` keyword also removes the specified index. The `del` keyword can also delete the list completely
+
+  ```python
+  thislist = ["apple", "banana", "cherry"]
+  del thislist[0]
+
+  #Delete the list
+  del thislist
+  ```
+
++ <code>clear():</code> The clear() method empties the list. The list still remains, but it has no content.
+
+  ```python
+  thislist = ["apple", "banana", "cherry"]
+  thislist.clear()
   ```
 
 <b>Sort List:</b></br>
